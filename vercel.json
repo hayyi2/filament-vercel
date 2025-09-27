@@ -5,7 +5,7 @@
             "runtime": "vercel-php@0.7.3"
         }
     },
-    "public": false,
+    "public": true,
     "rewrites": [
         {
             "source": "/(css|js)/(.*)",
@@ -15,6 +15,5 @@
             "source": "/(.*)",
             "destination": "/api/index.php"
         }
-    ],
-    "outputDirectory": "public"
+    ]
 }
