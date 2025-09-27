@@ -15,5 +15,5 @@
             "destination": "/api/index.php"
         }
     ],
-    "outputDirectory": "public"
+    "outputDirectory": "dist"
 }
