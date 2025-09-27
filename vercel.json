@@ -15,5 +15,6 @@
             "source": "/(.*)",
             "destination": "/api/index.php"
         }
-    ]
+    ],
+    "outputDirectory": "public/build"
 }
