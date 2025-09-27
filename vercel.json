@@ -7,10 +7,6 @@
     },
     "rewrites": [
         {
-            "source": "/(css|js|fonts|build)/(.*)",
-            "destination": "/public/$1/$2"
-        },
-        {
             "source": "/(.*)",
             "destination": "/api/index.php"
         }
